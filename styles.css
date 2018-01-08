@@ -1,0 +1,72 @@
+h1 {
+	padding-top: 60px;
+	font-size: 63px;
+	
+}
+
+h2 {
+	font-family: times;
+	font-style:italic;
+	font-size: 30px;
+	margin: 0 0 0 0;
+}
+
+img {
+	vertical-align: middle;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+div.image {
+	text-align: center;
+	padding: 0px 1px 10px 1px;
+	
+	background-color: white;
+}
+
+div.container {
+	background-color: #e1e1e1;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+
+div.caption {
+	padding-right: 15px;
+	padding-left: 15px;
+    display: block;
+    font-size: .8em;
+    text-align: center;
+    
+}
+
+div.list_and_quotes {
+	display: block;
+	padding-bottom: 60px;
+}
+
+body {
+	margin-top: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+div.signature {
+	padding-top: 60px;
+	text-align: center;	
+}
+
+div.line {
+
+}
+
+.txt:hover {
+	text-decoration: underline;
+}
+
