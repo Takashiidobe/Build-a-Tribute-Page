@@ -1,33 +1,71 @@
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	margin: auto;
+element.style {
+	user-select: text;
 }
 
-#big-header {
+@media screen and (min-width: 768px) {
 	font-size: 63px;
-	font-style: normal;
+}
+
+.jumbotron .h1 h1 {
+	font-size: 63px;
+	color: inherit;
 }
 
 .text-center {
 	text-align: center;
 }
 
-.container {
-	background-color: #e1e1e1;
-	margin-top: 60px;
+.h1 h1 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
 }
 
-.thumbnail {
-	background-color: white;
-	padding: 3px 3px 1px 3px;
+h1 {
+	margin: .67em 0;
+	display: block;
+	-webkit-margin-before: .67em;
+	-webkit-margin-after: .67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 
-.caption {
-	text-align: center;
+:after, :before {
+	box-sizing: border-box;
+}
+
+h2 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+	display: block;
+	-webkit-margin-before: .83em;
+	-webkit-margin-after: .83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 .jumbotron {
-	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	background-color: #eee;
+}
+
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+html {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
