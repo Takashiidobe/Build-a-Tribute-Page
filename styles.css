@@ -7,3 +7,9 @@
 body {
   margin-top: 60px;
 }
+
+#toggle {
+	width: 100px;
+    height: 100px;
+    background: #ccc;
+}
